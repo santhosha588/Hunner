@@ -13,7 +13,7 @@ E = '\033[0m'
 U = '\033[4m'
 O = '\033[33m'
 
-serv = None
+serv = ssanthosha162@gmail.com
 port = 587
 
 os.chdir('modules/')
@@ -70,9 +70,9 @@ def check_mail():
 		6) Comcast
 		7) By hand
 		"""+E)
-	ServerSmtp = input(W+'Hunner»Mail»ServerSmtp»'+E)
+	ServerSmtp = input(W+'ssanthosha162@gmail.com»'+E)
 	if int(ServerSmtp) == 1:
-		serv = 'smtp.gmail.com'
+		serv = 'ssanthosha162@gmail.com'
 		port = 465
 	elif int(ServerSmtp) == 2:
 		serv = 'smtp-mail.outlook.com'
@@ -90,8 +90,8 @@ def check_mail():
 		serv = 'smtm.comcast.com'
 		port = 587
 	elif int(ServerSmtp) == 7:
-		serv = input('Enter smtp server (Exemple:smtp.gmail.com)')
-		port = input('Enter port smtp server (Default port: 587)')
+		serv = input('ssanthosha162@gmail.com')
+		port = input('587')
 	else:
 		print('Error ')
 		sys.exit(1)
